@@ -1167,8 +1167,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: start;
-      align-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2 / 4;
@@ -1264,6 +1265,9 @@ template {
 }
 
 .footer__message {
+  width: 539px;
+  height: 123px;
+  resize: none;
   background-color: #fff;
   border-radius: 4px;
   padding: 18px 23px;
@@ -1292,7 +1296,7 @@ template {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #E0E0E0;
 }
 
 @media (max-width: 1200px) {
